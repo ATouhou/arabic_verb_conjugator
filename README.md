@@ -33,7 +33,7 @@ arugment 6: 'ُ' known as dammah
 
 **Create a Conjugator Object**
 
-Here, you are specifying all the details about the specific conjugation you want
+Here, you are specifying all the details about the specific conjugation you want. Note, the first argument is the verb you previously created.
 
     conjugator = VerbConjugator.new(verb, :tense => :perfect, :person => :first_person, :number => :singular)
 
@@ -43,7 +43,7 @@ Here, you are specifying all the details about the specific conjugation you want
 
 **Change the conjugation options**
 
-Here, you're changing the conjuation options and printing the new result
+Here, you're changing the conjugation options and printing the new result.
 
     conjugator.number = :plural
     conjugator.gender = :masculine

@@ -14,14 +14,19 @@ the verb form (although only form 1 is currently supported), and
 the optional arguments refer to the middle vowel for the perfect and
 imperfect tenses respectively as these are not predictable.
 
-*Note, that the order of the arguments appears to be incorrect in markdown and I'm not sure how to fix that and the fathah and dammah
+*Note, that the order of the arguments appears to be incorrect in markdown I'm not sure how to fix that. Also, the fathah and dammah
  don't show up very well so to clarify:*
 
 argument 1: 'د'
+
 argument 2: 'ر'
+
 argument 3: 'س'
+
 argument 4: 1
+
 argument 5: 'َ' known as fathah
+
 arugment 6: 'ُ' known as dammah
 
 verb = ArabicVerb.new("د", "ر", "س", 1, perfect_middle_vowel: "َ", imperfect_middle_vowel: "ُ")

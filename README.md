@@ -29,7 +29,7 @@ argument 5: 'َ' known as fathah
 
 arugment 6: 'ُ' known as dammah
 
-verb = ArabicVerb.new("د", "ر", "س", 1, perfect_middle_vowel: "َ", imperfect_middle_vowel: "ُ")
+    verb = ArabicVerb.new("د", "ر", "س", 1, perfect_middle_vowel: "َ", imperfect_middle_vowel: "ُ")
 
 **Create a Conjugator Object**
 
